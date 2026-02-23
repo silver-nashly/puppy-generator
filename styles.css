@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* Setting the background to pure white hides the white box baked into your JPG buttons */
+  background-color: white; 
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-frame {
+  width: 350px;
+  height: 350px;
+  background-image: url('https://i.pinimg.com/736x/f9/8f/5d/f98f5da4235bdf6a2a6fe6824c80a9a8.jpg');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+#puppy-pic {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#fetch-button, #download-link {
+  width: 250px;
+  height: 65px;
+  background-image: url('https://i.pinimg.com/736x/e7/06/e0/e706e0431a496d03041af01bdead73a6.jpg');
+  background-size: 100% 100%;
+  background-color: transparent;
+  color: #3e2723;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
